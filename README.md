@@ -26,6 +26,7 @@ The code creates a new tmux session with four panes. Each pane automatically exe
 
 ```bash
 git clone https://github.com/Gabrick75/TermuxServerLauncher
+cd TermuxServerLauncher
 python3 init.py
 ```
 ## Dependencies
