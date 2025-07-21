@@ -13,7 +13,7 @@ This repository contains a Python script that automates the creation of a tmux s
 
 The code creates a new tmux session with four panes. Each pane automatically executes one of the following commands:
 
-1. **Pane 1**: Runs the `jellyfin.sh` script located in `/data/data/com.termux/files/home/Termux-Udocker`.
+1. **Pane 1**: Runs the `jellyfin.sh` script located in `/data/data/com.termux/files/home/docker`.
 2. **Pane 2**: Starts FileBrowser, listening on port 7075 and allowing access to the `/data/data/com.termux/files/home` directory.
 3. **Pane 3**: Runs the `Monitor.sh` script located in `/data/data/com.termux/files/home/TermuxMonitor`.
 4. **Pane 4**: Enables the SSH service and displays `sshd` logs using the `logcat` command.
