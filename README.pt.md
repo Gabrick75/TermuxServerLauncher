@@ -25,6 +25,7 @@ O código cria uma nova sessão tmux com quatro painéis. Em cada painel, um dos
 
 ```bash
 git clone https://github.com/Gabrick75/TermuxServerLauncher
+cd TermuxServerLauncher
 python3 init.py
 ```
 ## Dependências
