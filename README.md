@@ -25,9 +25,8 @@ The code creates a new tmux session with four panes. Each pane automatically exe
 3. Run the Python script. It will create a tmux session and set up the panes automatically.
 
 ```bash
-git clone https://github.com/yourusername/termux-tmux-automation.git
-cd termux-tmux-automation
-python3 automacao_tmux.py
+git clone https://github.com/Gabrick75/TermuxServerLauncher
+python3 init.py
 ```
 ## Dependencies
 
